@@ -1,0 +1,53 @@
+{
+    "filename" : "oyb_kor_easy",
+    "title" : "One Year Bible EasyBible",
+    "authors" : [
+        {
+          "name" : "Christian",
+          "sort" : "Christian"
+        }
+    ],
+    "cover" : "images/kor_easy.jpg",
+    "rights" : "Nothing to declare",
+    "publisher" : "Christian",
+    "language" : "kr",
+    "subjects" : [ "Christinity" ],
+    "contributors" : [
+        {
+            "name" : "Christian",
+            "role" : "E-book making"
+        }
+    ],
+    "identifier" : {
+        "scheme" : "URL",
+        "value" : "http://oneyearbibleonline.com/daily-oyb/"
+    },
+    "contents" : [
+        {
+            "type" : "title-page",
+            "source" : "title.html"
+        },
+        {
+            "type" : "toc",
+            "source" : "toc.html"
+        },
+        {
+            "type" : "text",
+            "source" : "readings_*.html"
+        }
+    ],
+    "toc" : {
+        "depth" : 1,
+        "parse" : [ "text" ],
+        "generate" : {
+            "title" : "One Year Bible EasyBible"
+        }
+    },
+    "guide" : [
+        {
+            "type" : "toc",
+            "title" : "One Year Bible EasyBible",
+            "href" : "toc.html"
+        }
+    ]
+}
